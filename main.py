@@ -57,5 +57,5 @@ if st.button("Plan Trip") :
            time.sleep(5)
 
     st.success("Vola !! here are some fab suggestions") 
-    st.write(interaction.output_text) 
+    st.write(interaction.output_text)
     
