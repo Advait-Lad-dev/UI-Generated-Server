@@ -2,11 +2,17 @@ import streamlit as st
 from google import genai
 from dotenv import load_dotenv
 import time
+
 load_dotenv() 
 
 client = genai.Client()
 
-# st.title(" 🌍 Travel Assistant") 
+st.set_page_config(
+    page_title="Advait's App",
+    page_icon="🚀",  # Accepts emojis or image paths/URLs
+    layout="wide"
+)
+st.title(" 🌍 Travel Assistant") 
 st.markdown("""
 <style>
 @keyframes gradient-animation {
